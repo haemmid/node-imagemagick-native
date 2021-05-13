@@ -2,7 +2,7 @@
   'conditions': [
     ['OS=="win"', {
       'variables': {
-        'MAGICK_ROOT%': '<!(python get_regvalue.py)',
+        'MAGICK_ROOT%': 'C:\\Program Files\\Test\\',
         # download the dll binary and check off for libraries and includes
         'OSX_VER%': "0",
       }
