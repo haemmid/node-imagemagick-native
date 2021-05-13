@@ -2,7 +2,7 @@
   'conditions': [
     ['OS=="win"', {
       'variables': {
-        'MAGICK_ROOT%': 'C:\\Program Files\\Test\\',
+        'MAGICK_ROOT%': 'C:\\Program Files\\ImageMagick-6.9.12-Q16\\',
         # download the dll binary and check off for libraries and includes
         'OSX_VER%': "0",
       }
